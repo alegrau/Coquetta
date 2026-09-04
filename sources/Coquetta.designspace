@@ -4,9 +4,19 @@
     <axis tag="wght" name="weight" minimum="100" maximum="900" default="400"/>
   </axes>
   <sources>
-    <source filename="Coquetta_Regular.ufo" name="463f266a" familyname="Untitled" stylename="Regular">
+    <source filename="Coquetta_Thin.ufo" name="f5ba826f" familyname="Coquetta" stylename="Thin">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Coquetta_Regular.ufo" name="463f266a" familyname="Coquetta" stylename="Regular">
       <location>
         <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="Coquetta_Black.ufo" name="38c7ba51" familyname="Coquetta" stylename="Black">
+      <location>
+        <dimension name="weight" xvalue="900"/>
       </location>
     </source>
   </sources>
